@@ -4,6 +4,775 @@
         "official_brand_name": "SonyLIV",
         "rg_service_ids": [
             ""
-        ]
+        ],
+        "paywalls": {
+            "no_login_required": false,
+            "free": true,
+            "subscription": true,
+            "rental": false,
+            "purchase": false,
+            "tve": false
+        },
+        "parent_organization": "Sony",
+        "content_type": {
+            "vod": true,
+            "live_tv": false
+        },
+        "applications": {
+            "android": {
+                "IN": {
+                    "id": "com.sonyliv",
+                    "download_url": "https://play.google.com/store/apps/details?id=com.sonyliv&hl=en_US&gl=in",
+                    "download_deeplink": "market://details?id=com.sonyliv"
+                }
+            },
+            "ios": {
+                "IN": {
+                    "id": 587794258,
+                    "download_url": "https://apps.apple.com/in/app/sony-liv/id587794258",
+                    "download_deeplink": "itms-apps://itunes.apple.com/app/587794258"
+                }
+            }
+        }
+    },
+    "328": {
+        "service_name": "Voot | Jiocinema",
+        "official_brand_name": "Jiocinema",
+        "rg_service_ids": [
+            ""
+        ],
+        "paywalls": {
+            "no_login_required": false,
+            "free": true,
+            "subscription": true,
+            "rental": false,
+            "purchase": false,
+            "tve": false
+        },
+        "parent_organization": "Viacom18",
+        "content_type": {
+            "vod": true,
+            "live_tv": true
+        },
+        "applications": {
+            "android": {
+                "IN": {
+                    "id": "com.jio.media.ondemand",
+                    "download_url": "https://play.google.com/store/apps/details?id=com.jio.media.ondemand",
+                    "download_deeplink": "market://details?id=com.jio.media.ondemand"
+                }
+            },
+            "android_tv": {
+                "IN": {
+                    "id": "com.jio.media.stb.ondemand",
+                    "download_url": "https://play.google.com/store/apps/details?id=com.jio.media.stb.ondemand",
+                    "download_deeplink": "market://details?id=com.jio.media.stb.ondemand"
+                }
+            },
+            "ios": {
+                "IN": {
+                    "id": 1067316596,
+                    "download_url": "https://apps.apple.com/in/app/jiocinema-shows-tv-sports/id1067316596",
+                    "download_deeplink": "itms-apps://itunes.apple.com/app/1067316596"
+                }
+            }
+        }
+    },
+    "329": {
+        "service_name": "BookMyShow",
+        "official_brand_name": "BookMyShow",
+        "rg_service_ids": [
+            ""
+        ],
+        "paywalls": {
+            "no_login_required": false,
+            "free": true,
+            "subscription": false,
+            "rental": true,
+            "purchase": true,
+            "tve": false
+        },
+        "parent_organization": "BigTree Entertainment",
+        "content_type": {
+            "vod": false,
+            "live_tv": false
+        },
+        "applications": {
+            "android": {
+                "IN": {
+                    "id": "com.bt.bms",
+                    "download_url": "https://play.google.com/store/apps/details?id=com.bt.bms&hl=en_US&gl=in",
+                    "download_deeplink": "market://details?id=com.bt.bms"
+                }
+            },
+            "ios": {
+                "IN": {
+                    "id": 405894842,
+                    "download_url": "https://apps.apple.com/in/app/bookmyshow-movies-events/id405894842",
+                    "download_deeplink": "itms-apps://itunes.apple.com/app/405894842"
+                }
+            }
+        }
+    },
+    "330": {
+        "service_name": "Jio",
+        "official_brand_name": "JioCinema",
+        "rg_service_ids": [
+            ""
+        ],
+        "paywalls": {
+            "no_login_required": false,
+            "free": true,
+            "subscription": true,
+            "rental": false,
+            "purchase": false,
+            "tve": false
+        },
+        "parent_organization": "Viacom18",
+        "content_type": {
+            "vod": true,
+            "live_tv": true
+        },
+        "applications": {
+            "android": {
+                "IN": {
+                    "id": "com.jio.media.ondemand",
+                    "download_url": "https://play.google.com/store/apps/details?id=com.jio.media.ondemand&hl=en_US&gl=in",
+                    "download_deeplink": "market://details?id=com.jio.media.ondemand"
+                }
+            },
+            "android_tv": {
+                "IN": {
+                    "id": "com.jio.media.stb.ondemand",
+                    "download_url": "https://play.google.com/store/apps/details?id=com.jio.media.stb.ondemand",
+                    "download_deeplink": "market://details?id=com.jio.media.stb.ondemand"
+                }
+            },
+            "ios": {
+                "IN": {
+                    "id": 1067316596,
+                    "download_url": "https://apps.apple.com/in/app/jiocinema-shows-tv-sports/id1067316596",
+                    "download_deeplink": "itms-apps://itunes.apple.com/app/1067316596"
+                }
+            }
+        }
+    },
+    "331": {
+        "service_name": "ManoramaMax",
+        "official_brand_name": "ManoramaMAX",
+        "rg_service_ids": [
+            ""
+        ],
+        "paywalls": {
+            "no_login_required": false,
+            "free": true,
+            "subscription": true,
+            "rental": false,
+            "purchase": false,
+            "tve": false
+        },
+        "parent_organization": "Malayala Manorama",
+        "content_type": {
+            "vod": true,
+            "live_tv": true
+        },
+        "applications": {
+            "android": {
+                "GLOBAL": {
+                    "id": "com.mmtv.manoramamax.android",
+                    "download_url": "https://play.google.com/store/apps/details?id=com.mmtv.manoramamax.android",
+                    "download_deeplink": "market://details?id=com.mmtv.manoramamax.android"
+                }
+            },
+            "ios": {
+                "GLOBAL": {
+                    "id": 1468454034,
+                    "download_url": "https://apps.apple.com/in/app/manoramamax/id1468454034",
+                    "download_deeplink": "itms-apps://itunes.apple.com/app/1468454034"
+                }
+            }
+        }
+    },
+    "332": {
+        "service_name": "SunNXT",
+        "official_brand_name": "Sun NXT",
+        "rg_service_ids": [
+            ""
+        ],
+        "paywalls": {
+            "no_login_required": false,
+            "free": true,
+            "subscription": true,
+            "rental": false,
+            "purchase": false,
+            "tve": false
+        },
+        "parent_organization": "Sun Group",
+        "content_type": {
+            "vod": true,
+            "live_tv": true
+        },
+        "applications": {
+            "android": {
+                "GLOBAL": {
+                    "id": "com.suntv.sunnxt",
+                    "download_url": "https://play.google.com/store/apps/details?id=com.suntv.sunnxt",
+                    "download_deeplink": "market://details?id=com.suntv.sunnxt"
+                }
+            },
+            "ios": {
+                "US": {
+                    "id": 1244757492,
+                    "download_url": "https://apps.apple.com/us/app/sun-nxt-live-tv-movies/id1244757492",
+                    "download_deeplink": "itms-apps://itunes.apple.com/app/1244757492"
+                }
+            }
+        }
+    },
+    "333": {
+        "service_name": "Hoichoi",
+        "official_brand_name": "hoichoi",
+        "rg_service_ids": [
+            ""
+        ],
+        "paywalls": {
+            "no_login_required": true,
+            "free": true,
+            "subscription": true,
+            "rental": false,
+            "purchase": false,
+            "tve": false
+        },
+        "parent_organization": "Shri Venkatesh Films",
+        "content_type": {
+            "vod": true,
+            "live_tv": false
+        },
+        "applications": {
+            "android": {
+                "GLOBAL": {
+                    "id": "com.viewlift.hoichoi",
+                    "download_url": "https://play.google.com/store/apps/details?id=com.viewlift.hoichoi",
+                    "download_deeplink": "market://details?id=com.viewlift.hoichoi"
+                }
+            },
+            "ios": {
+                "GLOBAL": {
+                    "id": 1188755540,
+                    "download_url": "https://apps.apple.com/in/app/hoichoi-movies-web-series/id1188755540",
+                    "download_deeplink": "itms-apps://itunes.apple.com/app/id1188755540"
+                }
+            }
+        }
+    },
+    "334": {
+        "service_name": "Angel",
+        "official_brand_name": "Angel Studios",
+        "rg_service_ids": [
+            "angel_studios-angel_studios-free",
+            "angel_studios_theater-angel_studios_theater-subscription"
+        ],
+        "paywalls": {
+            "no_login_required": true,
+            "free": true,
+            "subscription": false,
+            "rental": false,
+            "purchase": false,
+            "tve": false
+        },
+        "parent_organization": "Angel Studios",
+        "content_type": {
+            "vod": true,
+            "live_tv": false
+        },
+        "applications": {
+            "android": {
+                "GLOBAL": {
+                    "id": "com.vidangel.thechosen",
+                    "download_url": "https://play.google.com/store/apps/details?id=com.vidangel.thechosen",
+                    "download_deeplink": "market://details?id=com.vidangel.thechosen"
+                }
+            },
+            "ios": {
+                "GLOBAL": {
+                    "id": 1473663873,
+                    "download_url": "https://apps.apple.com/in/app/angel-studios/id1473663873",
+                    "download_deeplink": "itms-apps://itunes.apple.com/app/1473663873"
+                }
+            }
+        }
+    },
+    "335": {
+        "service_name": "Max",
+        "official_brand_name": "Max",
+        "rg_service_ids": [
+            "hbo_max-hbo_max-subscription",
+            "hbo_max-amazon_prime-subscription",
+            "hbo-hulu-subscription"
+        ],
+        "paywalls": {
+            "no_login_required": false,
+            "free": true,
+            "subscription": true,
+            "rental": false,
+            "purchase": false,
+            "tve": true
+        },
+        "parent_organization": "Warner Bros. Discovery",
+        "content_type": {
+            "vod": true,
+            "live_tv": true
+        },
+        "applications": {
+            "android": {
+                "US": {
+                    "id": "com.wbd.stream",
+                    "download_url": "https://play.google.com/store/apps/details?id=com.wbd.stream",
+                    "download_deeplink": "market://details?id=com.wbd.stream"
+                }
+            },
+            "ios": {
+                "US": {
+                    "id": 1666653815,
+                    "download_url": "https://apps.apple.com/us/app/max-stream-hbo-tv-movies/id1666653815",
+                    "download_deeplink": "itms-apps://itunes.apple.com/app/1666653815"
+                }
+            }
+        }
+    },
+    "336": {
+        "service_name": "ErosNow",
+        "official_brand_name": "Eros Now",
+        "rg_service_ids": [
+            ""
+        ],
+        "paywalls": {
+            "no_login_required": true,
+            "free": true,
+            "subscription": true,
+            "rental": false,
+            "purchase": false,
+            "tve": false
+        },
+        "parent_organization": "Eros Media World",
+        "content_type": {
+            "vod": true,
+            "live_tv": false
+        },
+        "applications": {
+            "android": {
+                "GLOBAL": {
+                    "id": "com.erosnow",
+                    "download_url": "https://play.google.com/store/apps/details?id=com.erosnow&hl=en_US&gl=in",
+                    "download_deeplink": "market://details?id=com.wbd.stream"
+                }
+            },
+            "ios": {
+                "GLOBAL": {
+                    "id": 551666302,
+                    "download_url": "https://apps.apple.com/in/app/eros-now/id551666302",
+                    "download_deeplink": "itms-apps://itunes.apple.com/app/551666302"
+                }
+            }
+        }
+    },
+    "337": {
+        "service_name": "Cineverse",
+        "official_brand_name": "Cineverse",
+        "rg_service_ids": [
+            "cineverse_free-cineverse_free-free",
+            "cineverse_purchase-cineverse_purchase-purchase",
+            "cineverse_subscription-cineverse-subscription"
+        ],
+        "paywalls": {
+            "no_login_required": true,
+            "free": true,
+            "subscription": true,
+            "rental": false,
+            "purchase": true,
+            "tve": false
+        },
+        "parent_organization": "Cinedigm Corp",
+        "content_type": {
+            "vod": true,
+            "live_tv": true
+        },
+        "applications": {
+            "android": {
+                "GLOBAL": {
+                    "id": "com.dmr.yuyu",
+                    "download_url": "https://play.google.com/store/apps/details?id=com.dmr.yuyu",
+                    "download_deeplink": "market://details?id=com.dmr.yuyu"
+                }
+            },
+            "android_tv": {
+                "GLOBAL": {
+                    "id": "com.dmr.yuyu.tv",
+                    "download_url": "https://play.google.com/store/apps/details?id=com.dmr.yuyu.tv",
+                    "download_deeplink": "market://details?id=com.dmr.yuyu.tv"
+                }
+            },
+            "ios": {
+                "GLOBAL": {
+                    "id": 1249601429,
+                    "download_url": "https://apps.apple.com/us/app/cineverse-stream-movies-tv/id1249601429",
+                    "download_deeplink": "itms-apps://itunes.apple.com/app/1249601429"
+                }
+            }
+        }
+    },
+    "338": {
+        "service_name": "Dazn",
+        "official_brand_name": "DAZN",
+        "rg_service_ids": [
+            "dazn_subscription-dazn-subscription"
+        ],
+        "paywalls": {
+            "no_login_required": false,
+            "free": true,
+            "subscription": true,
+            "rental": false,
+            "purchase": false,
+            "tve": false
+        },
+        "parent_organization": "DAZN Group",
+        "content_type": {
+            "vod": true,
+            "live_tv": true
+        },
+        "applications": {
+            "android": {
+                "GLOBAL": {
+                    "id": "com.dazn",
+                    "download_url": "https://play.google.com/store/apps/details?id=com.dazn",
+                    "download_deeplink": "market://details?id=com.dazn"
+                }
+            },
+            "ios": {
+                "GLOBAL": {
+                    "id": 1129523589,
+                    "download_url": "https://apps.apple.com/de/app/dazn-sport-live-stream/id1129523589",
+                    "download_deeplink": "itms-apps://itunes.apple.com/app/1129523589"
+                }
+            }
+        }
+    },
+    "339": {
+        "service_name": "TimVision",
+        "official_brand_name": "TIMvision",
+        "rg_service_ids": [
+            "timvision_purchase-timvision_purchase-purchase",
+            "timvision_subscription-timvision-subscription"
+        ],
+        "paywalls": {
+            "no_login_required": false,
+            "free": false,
+            "subscription": true,
+            "rental": false,
+            "purchase": false,
+            "tve": false
+        },
+        "parent_organization": "Telecom Italia",
+        "content_type": {
+            "vod": true,
+            "live_tv": false
+        },
+        "applications": {
+            "android": {
+                "IT": {
+                    "id": "it.telecomitalia.cubovision",
+                    "download_url": "https://play.google.com/store/apps/details?id=it.telecomitalia.cubovision&hl=en&gl=it",
+                    "download_deeplink": "market://details?id=it.telecomitalia.cubovision"
+                }
+            },
+            "ios": {
+                "IT": {
+                    "id": 408382666,
+                    "download_url": "https://apps.apple.com/it/app/timvision-app/id408382666",
+                    "download_deeplink": "itms-apps://itunes.apple.com/app/408382666"
+                }
+            }
+        }
+    },
+    "340": {
+        "service_name": "YuppTv",
+        "official_brand_name": "YuppTV",
+        "rg_service_ids": [
+            ""
+        ],
+        "paywalls": {
+            "no_login_required": false,
+            "free": true,
+            "subscription": true,
+            "rental": false,
+            "purchase": false,
+            "tve": false
+        },
+        "parent_organization": "YuppTV",
+        "content_type": {
+            "vod": true,
+            "live_tv": true
+        },
+        "applications": {
+            "android": {
+                "GLOBAL": {
+                    "id": "com.tru",
+                    "download_url": "https://play.google.com/store/apps/details?id=com.tru",
+                    "download_deeplink": "market://details?id=com.tru"
+                }
+            },
+            "android_tv": {
+                "GLOBAL": {
+                    "id": "com.yupptv.androidtv",
+                    "download_url": "https://play.google.com/store/apps/details?id=com.yupptv.androidtv",
+                    "download_deeplink": "market://details?id=com.yupptv.androidtv"
+                }
+            },
+            "ios": {
+                "GLOBAL": {
+                    "id": 665805393,
+                    "download_url": "https://apps.apple.com/in/app/yupptv-live-tv-movies/id665805393",
+                    "download_deeplink": "itms-apps://itunes.apple.com/app/665805393"
+                }
+            }
+        }
+    },
+    "341": {
+        "service_name": "EpicOn",
+        "official_brand_name": "EPIC On",
+        "rg_service_ids": [
+            ""
+        ],
+        "paywalls": {
+            "no_login_required": false,
+            "free": true,
+            "subscription": true,
+            "rental": false,
+            "purchase": false,
+            "tve": false
+        },
+        "parent_organization": "Epic TV",
+        "content_type": {
+            "vod": true,
+            "live_tv": true
+        },
+        "applications": {
+            "android": {
+                "GLOBAL": {
+                    "id": "com.epicchannel.epicon",
+                    "download_url": "https://play.google.com/store/apps/details?id=com.epicchannel.epicon",
+                    "download_deeplink": "market://details?id=com.epicchannel.epicon"
+                }
+            },
+            "ios": {
+                "US": {
+                    "id": 1252513341,
+                    "download_url": "https://apps.apple.com/us/app/epic-on-tv-shows-movies/id1252513341",
+                    "download_deeplink": "itms-apps://itunes.apple.com/app/1252513341"
+                }
+            }
+        }
+    },
+    "342": {
+        "service_name": "ShemarooMe",
+        "official_brand_name": "ShemarooMe",
+        "rg_service_ids": [
+            ""
+        ],
+        "paywalls": {
+            "no_login_required": true,
+            "free": true,
+            "subscription": true,
+            "rental": false,
+            "purchase": false,
+            "tve": false
+        },
+        "parent_organization": "Shemaroo Entertainment Ltd.",
+        "content_type": {
+            "vod": true,
+            "live_tv": true
+        },
+        "applications": {
+            "android": {
+                "GLOBAL": {
+                    "id": "com.saranyu.shemarooworld",
+                    "download_url": "https://play.google.com/store/apps/details?id=com.saranyu.shemarooworld",
+                    "download_deeplink": "market://details?id=com.saranyu.shemarooworld"
+                }
+            },
+            "android_tv": {
+                "GLOBAL": {
+                    "id": "com.shemaroo.shemarootv",
+                    "download_url": "https://play.google.com/store/apps/details?id=com.shemaroo.shemarootv",
+                    "download_deeplink": "market://details?id=com.shemaroo.shemarootv"
+                }
+            },
+            "ios": {
+                "GLOBAL": {
+                    "id": 1439041310,
+                    "download_url": "https://apps.apple.com/in/app/shemaroome/id1439041310",
+                    "download_deeplink": "itms-apps://itunes.apple.com/app/1439041310"
+                }
+            }
+        }
+    },
+    "343": {
+        "service_name": "Aha",
+        "official_brand_name": "aha",
+        "rg_service_ids": [
+            ""
+        ],
+        "paywalls": {
+            "no_login_required": true,
+            "free": true,
+            "subscription": true,
+            "rental": false,
+            "purchase": false,
+            "tve": false
+        },
+        "parent_organization": "Geetha Arts, My Home Group",
+        "content_type": {
+            "vod": true,
+            "live_tv": false
+        },
+        "applications": {
+            "android": {
+                "GLOBAL": {
+                    "id": "ahaflix.tv",
+                    "download_url": "https://play.google.com/store/apps/details?id=ahaflix.tv",
+                    "download_deeplink": "market://details?id=ahaflix.tv"
+                }
+            },
+            "ios": {
+                "GLOBAL": {
+                    "id": 1488739001,
+                    "download_url": "https://apps.apple.com/in/app/aha-100-local-entertainment/id1488739001",
+                    "download_deeplink": "itms-apps://itunes.apple.com/app/1488739001"
+                }
+            }
+        }
+    },
+    "344": {
+        "service_name": "MovistarPlus",
+        "official_brand_name": "Movistar Plus+",
+        "rg_service_ids": [
+            "movistar_plus_lite_subscription-movistar_plus_lite-subscription",
+            "movistar_plus-movistar_plus-subscription"
+        ],
+        "paywalls": {
+            "no_login_required": true,
+            "free": false,
+            "subscription": true,
+            "rental": false,
+            "purchase": true,
+            "tve": true
+        },
+        "parent_organization": "Telef\u00f3nica S.A.",
+        "content_type": {
+            "vod": true,
+            "live_tv": true
+        },
+        "applications": {
+            "android": {
+                "ES": {
+                    "id": "es.plus.yomvi",
+                    "download_url": "https://play.google.com/store/apps/details?id=es.plus.yomvi&hl=es",
+                    "download_deeplink": "market://details?id=es.plus.yomvi"
+                }
+            },
+            "ios": {
+                "ES": {
+                    "id": 540674767,
+                    "download_url": "https://apps.apple.com/es/app/movistar-plus/id540674767",
+                    "download_deeplink": "itms-apps://itunes.apple.com/app/540674767"
+                }
+            }
+        }
+    },
+    "345": {
+        "service_name": "HungamaPlay",
+        "official_brand_name": "Hungama.com",
+        "rg_service_ids": [
+            ""
+        ],
+        "paywalls": {
+            "no_login_required": true,
+            "free": true,
+            "subscription": true,
+            "rental": true,
+            "purchase": false,
+            "tve": false
+        },
+        "parent_organization": "Hungama Digital Media Entertainment",
+        "content_type": {
+            "vod": true,
+            "live_tv": false
+        },
+        "applications": {
+            "android": {
+                "GLOBAL": {
+                    "id": "com.hungama.myplay.activity",
+                    "download_url": "https://play.google.com/store/apps/details?id=com.hungama.myplay.activity",
+                    "download_deeplink": "market://details?id=com.hungama.myplay.activity"
+                }
+            },
+            "android_tv": {
+                "GLOBAL": {
+                    "id": "com.hungama.movies.tv",
+                    "download_url": "https://play.google.com/store/apps/details?id=com.hungama.movies.tv",
+                    "download_deeplink": "market://details?id=com.hungama.movies.tv"
+                }
+            },
+            "ios": {
+                "GLOBAL": {
+                    "id": 414009038,
+                    "download_url": "https://apps.apple.com/in/app/hungama-movies-music-podcasts/id414009038",
+                    "download_deeplink": "itms-apps://itunes.apple.com/app/414009038"
+                }
+            }
+        }
+    },
+    "346": {
+        "service_name": "DiscoveryPlusIndia",
+        "official_brand_name": "Discovery+ India",
+        "rg_service_ids": [
+            ""
+        ],
+        "paywalls": {
+            "no_login_required": true,
+            "free": true,
+            "subscription": true,
+            "rental": false,
+            "purchase": false,
+            "tve": false
+        },
+        "parent_organization": "Warner Bros. Discovery",
+        "content_type": {
+            "vod": true,
+            "live_tv": false
+        },
+        "applications": {
+            "android": {
+                "IN": {
+                    "id": "com.discoveryplus.mobile.android",
+                    "download_url": "https://play.google.com/store/apps/details?id=com.discoveryplus.mobile.android",
+                    "download_deeplink": "market://details?id=com.discoveryplus.mobile.android"
+                }
+            },
+            "android_tv": {
+                "IN": {
+                    "id": "com.discoveryplus.tv.android",
+                    "download_url": "https://play.google.com/store/apps/details?id=com.discoveryplus.tv.android",
+                    "download_deeplink": "market://details?id=com.discoveryplus.tv.android"
+                }
+            },
+            "ios": {
+                "IN": {
+                    "id": 1497257119,
+                    "download_url": "https://apps.apple.com/in/app/discovery/id1497257119",
+                    "download_deeplink": "itms-apps://itunes.apple.com/app/1497257119"
+                }
+            }
+        }
     }
 }
