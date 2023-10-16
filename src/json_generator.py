@@ -37,6 +37,8 @@ class JsonGenerator:
                 'applications': self.__get_applications(service_id, applications)
             }
 
+            # break
+
         self.__write_json_file()
 
     @staticmethod
@@ -58,14 +60,14 @@ class JsonGenerator:
 
             if service_id == paywalls_data['Id'][i]:
 
-                paywalls['no_login_required'] = paywalls_data['no_login_required'][i]
-                paywalls['free'] = paywalls_data['free'][i]
-                paywalls['subscription'] = paywalls_data['subscription'][i]
-                paywalls['rental'] = paywalls_data['rental'][i]
-                paywalls['purchase'] = paywalls_data['purchase'][i]
-                paywalls['tve'] = paywalls_data['tve'][i]
 
-        print(type(paywalls['subscription']))
+                paywalls['no_login_required'] = paywalls_data['no_login_required'][i].item()
+                paywalls['free'] = paywalls_data['free'][i].item()
+                paywalls['subscription'] = paywalls_data['subscription'][i].item()
+                paywalls['rental'] = paywalls_data['rental'][i].item()
+                paywalls['purchase'] = paywalls_data['purchase'][i].item()
+                paywalls['tve'] = paywalls_data['tve'][i].item()
+
         return paywalls
 
     @staticmethod
@@ -75,8 +77,8 @@ class JsonGenerator:
 
             if service_id == paywalls_data['Id'][i]:
 
-                content_type['vod'] = paywalls_data['vod'][i]
-                content_type['live_tv'] = paywalls_data['live_tv'][i]
+                content_type['vod'] = paywalls_data['vod'][i].item()
+                content_type['live_tv'] = paywalls_data['live_tv'][i].item()
 
         return content_type
 
