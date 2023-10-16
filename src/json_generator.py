@@ -31,34 +31,74 @@ class JsonGenerator:
                 'service_name': paywalls['service_name'][i],
                 'official_brand_name': paywalls['official_brand_name'][i],
                 'rg_service_ids': self.__get_rg_service_ids(service_id, rg_service_ids),
-                # ToDo -  check arguments to get paywalls
                 'paywalls': self.__get_paywalls(service_id, paywalls),
                 'parent_organization': paywalls['parent_organization'][i],
-                # ToDo -  check arguments to get content_type
                 'content_type': self.__get_content_type(service_id, paywalls),
                 'applications': self.__get_applications(service_id, applications)
             }
 
-            # ToDo -  delete
-            break
-
         self.__write_json_file()
 
-    def __get_rg_service_ids(self, service_id, rg_service_ids):
-        return {}
+    @staticmethod
+    def __get_rg_service_ids(service_id: int, rg_service_ids: DataFrame):
+        service_ids = []
+        for i in rg_service_ids.index:
+            if service_id == rg_service_ids['Id'][i]:
+                if not pd.isna(rg_service_ids['rg_service_ids'][i]):
+                    service_ids.append(rg_service_ids['rg_service_ids'][i])
+                else:
+                    service_ids.append('')
 
-    def __get_paywalls(self, service_id, paywalls):
-        return {}
+        return service_ids
 
-    def __get_content_type(self, service_id, paywalls):
-        return {}
+    @staticmethod
+    def __get_paywalls(service_id: int, paywalls_data: DataFrame):
+        paywalls = {}
+        for i in paywalls_data.index:
 
-    def __get_applications(self, service_id, applications):
-        return {}
+            if service_id == paywalls_data['Id'][i]:
+
+                paywalls['no_login_required'] = paywalls_data['no_login_required'][i]
+                paywalls['free'] = paywalls_data['free'][i]
+                paywalls['subscription'] = paywalls_data['subscription'][i]
+                paywalls['rental'] = paywalls_data['rental'][i]
+                paywalls['purchase'] = paywalls_data['purchase'][i]
+                paywalls['tve'] = paywalls_data['tve'][i]
+
+        print(type(paywalls['subscription']))
+        return paywalls
+
+    @staticmethod
+    def __get_content_type(service_id: int, paywalls_data: DataFrame):
+        content_type = {}
+        for i in paywalls_data.index:
+
+            if service_id == paywalls_data['Id'][i]:
+
+                content_type['vod'] = paywalls_data['vod'][i]
+                content_type['live_tv'] = paywalls_data['live_tv'][i]
+
+        return content_type
+
+    @staticmethod
+    def __get_applications(service_id, applications):
+        apps = {}
+
+        for i in applications.index:
+            if service_id == applications['Id'][i]:
+                apps[applications['OS'][i]] = {
+                    applications['Region'][i]:
+                        {
+                            'id': applications['id'][i],
+                            'download_url': applications['download_url'][i],
+                            'download_deeplink': applications['download_deeplink'][i]
+                        }
+                }
+
+        return apps
 
     def __write_json_file(self):
         metadata = json.dumps(self.__metadata, indent=4)
-        print(metadata)
 
         with open(f"{self.__folder_to_write}\\metadata.json", "w") as outfile:
             outfile.write(metadata)
