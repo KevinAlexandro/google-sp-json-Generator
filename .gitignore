@@ -1,5 +1,11 @@
-.idea/
 src/__pycache__/
-*.iml
-.idea/google-sp-json-Generator.iml
-.idea/google-sp-json-Generator.iml
+.idea/
+__pycache__/
+**/jsons/*
+**/xlsx/*
+github_commit
+venv/
+.python-version
+src/venv
+.vscode/
+**/.DS_Store
